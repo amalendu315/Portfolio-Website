@@ -9,7 +9,28 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/504c3f5e0b.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
+    <meta name="theme-color" content="#7952b3">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -17,7 +38,7 @@
         <div class="nav">
             <h2 class="logo">Portfo<span>lio</span></h2>
             <ul>
-                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
                 <li><a href="#">SKILLS</a></li>
                 <li><a href="#">PROJECTS</a></li>
                 <li><a href="#">CONTACT</a></li>
@@ -38,41 +59,146 @@
             </div>
         </div>
     </div>
-    <br>
-    <div class="container">
-        <div class="about">
-            <h1 class="heading"><span class="about-span">AB</span>OUT</h1>
-        </div>
-        <div class="container marketing">
-
-            <!-- Three columns of text below the carousel -->
-            <div class="row">
-                <div class="col-lg-4">
-                    <img class="image" src="./images/computerscience.jpg">
-                    <h2>B.Tech-Final Year</h2>
-                    <p>Fresher UG Student I am a B.Tech-Final Year student. I wish to work in a dynamic organization that will contribute to my professional and personal growth while I contribute to the growth of the company as well as engage in opportunities
-                        to reach the company's goal.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                </div>
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                </div>
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
-                        amet risus.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                </div>
-                <!-- /.col-lg-4 -->
+    <div class="lol">
+        <div class="container">
+            <div class="about" id="about">
+                <h1 class="heading"><span class="about-span">AB</span>OUT</h1>
             </div>
-            <!-- /.row -->
+            <div class="container marketing">
+
+                <!-- Three columns of text below the carousel -->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="image" src="./images/computerscience.jpg">
+                        <h2 style="color: white;">B.Tech-Final Year</h2>
+                        <p style="padding-bottom: 20px; color: #ffff;">Fresher UG Student:I am a B.Tech-Final Year student. I wish to work in a dynamic organization that will contribute to my professional and personal growth while I contribute to the growth of the company as well as engage in opportunities
+                            to reach the company's goal.</p>
+                        <p><a class="btn-1" style="margin-bottom: 30px;" href="#" role="button">View details &raquo;</a></p>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <img class="image" src="./images/web.jpg">
+                        <h2 style="color: white;">Front End-Web Developer</h2>
+                        <p style="padding-bottom: 20px;color: #ffff;">I am a B.Tech-Final Year student.I am a Front End-Web Developer too. I have knowledge in HTML,CSS,JavaScript-React JS. I wish to work in a dynamic organization that will contribute to my professional and skills growth.</p>
+                        <p><a class="btn-1" style="margin-bottom: 30px;color: white;" href="#" role="button">View details &raquo;</a></p>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <img class="image" src="./images/cyber.jpg">
+                        <h2 style="color: white;">Cyber Security Trainee</h2>
+                        <p style="padding-bottom: 20px;color: #ffff;">I am a B.Tech-Final Year student.I am a Cyber Security Analyst Trainee too. I have knowledge in Cyber Laws and Rules, Ethical Hacking. I wish to work in a dynamic organization that will contribute to my professional and skills
+                            growth.
+                        </p>
+                        <p><a class="btn-1" style="margin-bottom: 30px;color: white;" href="#" role="button">View details &raquo;</a></p>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+                <!-- /.row -->
+            </div>
         </div>
+        <div class="skills">
+            <div class="page-header">
+                <h1 id="head">SKI<span id="head1">LLS</span></h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="text-align: center; font-size: 25px;">C,C++ Language</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p style="text-align: center;font-size: 15px;justify-content: space-between;letter-spacing: 2px;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i> EXPERT
+                            </p>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="text-align: center; font-size: 22px;">Java,Python,HTML Language</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p style="text-align: center;font-size: 15px;justify-content: space-between;letter-spacing: 2px;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i> EXPERT
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-sm-4 -->
+                <div class="col-sm-4">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="text-align: center; font-size: 23px;">PHP,MySQL,CSS Proficiency</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p style="text-align: center;font-size: 15px;justify-content: space-between;letter-spacing: 2px;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i> INTERMEDIATE
+                            </p>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="text-align: center; font-size: 25px;">DBMS,DSA,Networking</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p style="text-align: center;font-size: 15px;justify-content: space-between;letter-spacing: 2px;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i> EXPERT
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-sm-4 -->
+                <div class="col-sm-4">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="text-align: center; font-size: 21px;">MS-Office,ANACONDA,React JS</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p style="text-align: center;font-size: 15px;justify-content: space-between;letter-spacing: 2px;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i> INTERMEDIATE
+                            </p>
+                        </div>
+                    </div>
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="text-align: center; font-size: 19px;">Teamwork,Leadership,Communication</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p style="text-align: center;font-size: 19px;justify-content: space-between;letter-spacing: 2px;padding-bottom: 4px;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i> EXPERT
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-sm-4 -->
+            </div>
+
+
+        </div>
+    </div>
+
+
 </body>
 
 </html>

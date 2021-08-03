@@ -117,19 +117,21 @@ ul li {
     right: 6px;
 }
 
-button {
-    color: white;
+.lol {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/bg-2.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .about-span {
-    color: black;
+    color: #035397;
     font-size: 60px;
     font-weight: bold;
     text-align: center;
 }
 
 .heading {
-    color: yellow;
+    color: #5089C6;
     font-size: 60px;
     font-weight: bold;
     text-align: center;
@@ -143,7 +145,40 @@ button {
 .image {
     height: 100%;
     width: 100%;
-    border: 2px solid yellow;
+    border: 5px solid #00C1D4;
     border-radius: 20px;
     padding: 10px 10px 10px 10px;
+    background-color: #28FFBF;
+}
+
+.btn-1 {
+    background-color: #001E6C;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .6s;
+}
+
+.btn-1:hover {
+    transform: scale(1.1);
+    color: yellowgreen;
+}
+
+#head {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+#head1 {
+    color: pink;
+    font-size: 60px;
+    text-align: center;
+}
+
+.skills {
+    margin: 120px 120px 0 120px;
 }
